@@ -36,7 +36,7 @@
                     </view>
                     <connections>
                         <outlet property="aoutletButton" destination="suS-yt-iWV" id="s39-vU-gAo"/>
-                        <outlet property="outletText" destination="LFL-Oz-VSy" id="Xgy-eA-4cH"/>
+                        <outlet property="outtletText" destination="LFL-Oz-VSy" id="g2f-8J-TCm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

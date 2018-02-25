@@ -9,24 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-     weak var outtletText: UITextField!
+    //Se agrega @IBOutlet para que el Main.storyboard reconozca la etiqueta y se hace la conexión
+    @IBOutlet weak var outtletText: UITextField!
     @IBOutlet weak var aoutletButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         aoutletButton.setTitle("Touch me!", for: .normal)
-        
     }
 
     func actionButton(_ sender: Any) {
         outtletText.text = "You are a genius "
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
