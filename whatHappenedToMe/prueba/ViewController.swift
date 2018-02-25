@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         aoutletButton.setTitle("Touch me!", for: .normal)
     }
 
-    func actionButton(_ sender: Any) {
+    //Se agrega @IBAction para que el metodo aparezca en el Main.storyboard y se hace la conexión
+    //con el botón
+    @IBAction func actionButton(_ sender: Any) {
         outtletText.text = "You are a genius "
     }
     
