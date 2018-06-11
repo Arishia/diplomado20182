@@ -93,7 +93,7 @@
         <!--Mapa-->
         <scene sceneID="TxY-Tf-VWy">
             <objects>
-                <viewController id="ahY-wL-3v9" sceneMemberID="viewController">
+                <viewController id="ahY-wL-3v9" customClass="MapViewController" customModule="WorldWrotter" customModuleProvider="target" sceneMemberID="viewController">
                     <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="Fw0-QY-rz8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
